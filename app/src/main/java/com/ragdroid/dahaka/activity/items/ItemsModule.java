@@ -1,7 +1,7 @@
 package com.ragdroid.dahaka.activity.items;
 
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.ragdroid.dahaka.activity.items.list.ItemsAdapter;
 

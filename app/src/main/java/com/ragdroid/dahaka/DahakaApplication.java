@@ -1,8 +1,8 @@
 package com.ragdroid.dahaka;
 import android.app.Activity;
 import android.app.Application;
-import android.databinding.DataBindingComponent;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingComponent;
+import androidx.databinding.DataBindingUtil;
 
 import com.ragdroid.dahaka.app.AppComponent;
 import com.ragdroid.dahaka.app.DaggerAppComponent;

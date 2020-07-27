@@ -1,7 +1,7 @@
 package com.ragdroid.dahaka.activity.home.moves;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
 
 import com.ragdroid.dahaka.BR;
 import com.ragdroid.dahaka.api.entity.Pokemon;

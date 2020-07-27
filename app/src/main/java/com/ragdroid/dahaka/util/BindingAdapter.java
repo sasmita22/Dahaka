@@ -1,6 +1,6 @@
 package com.ragdroid.dahaka.util;
 
-import android.databinding.BindingConversion;
+import androidx.databinding.BindingConversion;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.ImageView;
@@ -40,7 +40,7 @@ public class BindingAdapter {
      * @param cropCircle  Crop the image in a circle of not.
      */
     @SuppressWarnings("unchecked")
-    @android.databinding.BindingAdapter(value = {"src", "placeholder", "error", "blur", "cropCircle"},
+    @androidx.databinding.BindingAdapter(value = {"src", "placeholder", "error", "blur", "cropCircle"},
             requireAll = false)
     public void setImageUrl(ImageView view, String src, Drawable placeholder, Drawable error,
                             int blurValue, boolean cropCircle) {
@@ -71,12 +71,12 @@ public class BindingAdapter {
                 .into(view);
     }
 
-    @android.databinding.BindingAdapter(value = {"formatString", "variable"})
+    @androidx.databinding.BindingAdapter(value = {"formatString", "variable"})
     public void formatString(TextView textView, String stringFormat, String variable) {
         textView.setText(String.format(stringFormat, variable));
     }
 
-    @android.databinding.BindingAdapter(value = {"formatInt", "variable"})
+    @androidx.databinding.BindingAdapter(value = {"formatInt", "variable"})
     public void formatInt(TextView textView, String stringFormat, int variable) {
         textView.setText(String.format(stringFormat, variable));
     }

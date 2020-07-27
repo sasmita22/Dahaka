@@ -1,18 +1,15 @@
 package com.ragdroid.dahaka.activity.home.moves;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.ragdroid.dahaka.R;
-import com.ragdroid.dahaka.activity.home.HomeActivity;
 import com.ragdroid.dahaka.databinding.FragmentMovesBinding;
-import com.ragdroid.dahaka.databinding.FragmentStatsBinding;
 import com.ragdroid.dahaka.mvp.BaseFragment;
-import com.ragdroid.dahaka.user.BaseUserActivity;
 
 import javax.inject.Inject;
 

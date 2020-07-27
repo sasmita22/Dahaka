@@ -1,6 +1,6 @@
 package com.ragdroid.dahaka.util;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import javax.inject.Inject;
 

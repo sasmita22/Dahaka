@@ -1,7 +1,7 @@
 package com.ragdroid.dahaka.activity.login;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
 
 import com.ragdroid.dahaka.BR;
 

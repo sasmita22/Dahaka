@@ -1,7 +1,7 @@
 package com.ragdroid.dahaka.app;
 
 import android.app.Application;
-import android.databinding.DataBindingComponent;
+import androidx.databinding.DataBindingComponent;
 
 import javax.inject.Singleton;
 

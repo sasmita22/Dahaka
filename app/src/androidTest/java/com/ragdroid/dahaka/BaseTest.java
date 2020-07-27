@@ -1,23 +1,12 @@
 package com.ragdroid.dahaka;
 
-import android.support.annotation.CallSuper;
-import android.support.test.espresso.UiController;
-import android.support.test.espresso.ViewAction;
-import android.support.test.espresso.action.CloseKeyboardAction;
-import android.support.test.runner.AndroidJUnit4;
-import android.view.View;
+import androidx.annotation.CallSuper;
+import androidx.test.espresso.UiController;
+import androidx.test.espresso.ViewAction;
+import androidx.test.espresso.action.CloseKeyboardAction;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.ragdroid.dahaka.util.BaseSchedulerProvider;
-
-import org.hamcrest.Matcher;
-import org.junit.Before;
 import org.junit.runner.RunWith;
-
-import javax.inject.Inject;
-
-import io.reactivex.schedulers.TestScheduler;
-
-import static org.mockito.Mockito.when;
 
 /**
  * Created by garimajain on 31/08/17.

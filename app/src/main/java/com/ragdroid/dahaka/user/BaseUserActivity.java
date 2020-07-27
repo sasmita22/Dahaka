@@ -1,9 +1,8 @@
 package com.ragdroid.dahaka.user;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
-import com.ragdroid.dahaka.DahakaApplication;
 import com.ragdroid.dahaka.app.UserManager;
 import com.ragdroid.dahaka.mvp.BaseActivity;
 import com.ragdroid.dahaka.mvp.BasePresenter;
